@@ -8,7 +8,7 @@ it('should be add two number',()=>{
 });
 
 it('should be add two number async ',(done1)=>{
- var res=utils.Asyncadd(2,3,(sum)=>{
+ var res=utils.Asyncadd(2,5,(sum)=>{
 expect(sum).toBe(5).toBeA('number');
         done1();
   });
